@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: url(../img/web-banner.jpg) no-repeat center;
+    background-size: cover;
+}
+.header h1{
+    margin-top: 10px;
+}
+.header .overlay{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+.nav{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    padding-top: 20px;
+}
+.nav .menu{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav .menu .logo{
+    width: 13%;
+}
+.nav .menu .logo img{
+    margin-top: 10px;
+    width: 100px;
+}
+.nav .menu .menu-items{
+    width: 87%;
+}
+.nav .menu .menu-items ul{
+    text-align: right;
+    list-style: none;
+}
+.nav .menu .menu-items ul li{
+    display: inline-block;
+    margin-right: 30px;
+    position: relative;
+}
+.nav .menu .menu-items ul li i{
+    margin-right: 6px;
+}
+.nav .menu .menu-items ul li:last-child{
+    margin-right: 0;
+}
+.nav .menu .menu-items ul li a{
+    text-decoration: none;
+    color: #44c0c2;
+    font-size: 17px;
+    transition: 0.5s;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav .menu .menu-items ul li a:before{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 0;
+    background: #00b3b6;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s;
+}
+.nav .menu .menu-items ul li a:hover:before{
+    width: 30px;
+}
+.nav .menu .menu-items ul li a:hover{
+    color: #006c6e;
+}
+.content{
+    width: 80%;
+    margin: 120px auto;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.content .left-part{
+    width: 50%;
+    margin-top: 30px;
+    padding-bottom: 90px;
+}
+.content .left-part h1{
+    font-size: 35px;
+    color: #44c0c2;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    position: relative;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.content .left-part span{
+    color: #cacaca;
+}
+.content .left-part h1:before{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 70px;
+    bottom: 5px;
+    left: 0;
+    background: #44c0c2;
+    transition: 0.5s;
+}
+.content .left-part h1:hover:before{
+    width: 150px;
+}
+.content .left-part h3{
+    font-size: 25px;
+    color: #44c0c2;
+    margin: 10px 0;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+}
+.content .left-part p{
+    color: #cacaca;
+    margin-top: 18px;
+    line-height: 1.4em;
+    letter-spacing: 0.6px;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+.content .login-part{
+    width: 40%;
+}
+.content .login-part .login{
+    width: 170px;
+    margin-left: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px 20px;
+    box-shadow: 0px 0px 12px 1px #ffffff;
+    border-radius: 10px;
+    float: right;
+}
+.content .login-part .login h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.content .login-part .login h1 i{
+    color: #44c0c2;
+}
+.content .login-part .login h2{
+    color: #44c0c2;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.content .login-part .login span{
+    color: #44c0c2;
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 3px;
+}
+.content .login-part .login input{
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #44c0c2;
+    margin-bottom: 25px;
+    color: #ffffff;
+}
+.content .login-part .login input:last-child{
+    margin-bottom: 0;
+    border-bottom: none;
+}
+.content .login-part .login .btn {
+    background: #003b66;
+    padding: 5px 10px;
+    color: #00fbff;
+    border-radius: 10%;
+    cursor: pointer;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    display: block;
+}
